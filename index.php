@@ -19,20 +19,52 @@
     <div class="hamburger">
 
     </div>
-
   </header>
 
   <main>
-    <div class="hero-image">
-      <img src="" alt="">
+    <div class="captioned-image">
+      <img src="images/1806_Plaza16486.jpg" alt="Artistic display of wares">
+
       <div class="image-caption">
-        <h2>
-          
+        <h2 class="caption-heading">
+          ART
+          <br>
+          DIRECTION
         </h2>
       </div>
-    </div>
-  </main>
 
+    </div>
+
+    <div class="captioned-image">
+      <img src="images/magis_mobile.png" alt="Mirror and window">
+
+      <div class="image-caption">
+        <h2 class="caption-heading">
+          CONTENT
+          <br>
+          CREATION
+        </h2>
+      </div>
+
+    </div>
+
+    <div class="text-block">
+      <h3>BIOGRAPHY</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Tempora placeat quod veniam maiores impedit quasi deleniti 
+        est nam hic debitis assumenda iste, voluptate tenetur enim 
+        dolorum maxime eaque a sit!
+      </p>
+    </div>
+
+    <img src="images/armin.png" alt="Armin">
+
+    <div class="contact-info">
+      
+    </div>
+
+  </main>
 
 </body>
 </html>
