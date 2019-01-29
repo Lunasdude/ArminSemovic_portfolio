@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.scss",
+		"../sass/_typography.scss"
+	],
+	"sourcesContent": [
+		"@import 'typography.scss';\r\n\r\nbody {\r\n  background: url(../images/leather_background.jpg) center fixed;\r\n  background-size: cover;\r\n}",
+		"h1{\r\n  font-family: Garamond;\r\n  color: #ffffff;\r\n}"
+	],
+	"mappings": ";ACAA,AAAA,EAAE,CAAA;EACA,WAAW,EAAE,QAAS;EACtB,KAAK,EAAE,OAAQ;CAChB;;;ADDD,AAAA,IAAI,CAAC;EACH,UAAU,EAAsC,qCAAC,CAAC,MAAM,CAAC,KAAK;EAC9D,eAAe,EAAE,KAAM;CACxB",
+	"names": []
+}

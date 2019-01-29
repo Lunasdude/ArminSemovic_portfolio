@@ -1,0 +1,13 @@
+/* line 1, D:/Desktop/htdocs/ArminSemovic_portfolio/sass/_typography.scss */
+h1 {
+  font-family: Garamond;
+  color: #ffffff;
+}
+
+/* line 3, D:/Desktop/htdocs/ArminSemovic_portfolio/sass/style.scss */
+body {
+  background: url(../images/leather_background.jpg) center fixed;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=../css/style.map */
