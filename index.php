@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Armin Semovic</title>
 
+  <!-- Didot font from google -->
+  <link href="https://fonts.googleapis.com/css?family=GFS+Didot" rel="stylesheet">
+
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
   <link rel="stylesheet" href="css/style.css">
 
