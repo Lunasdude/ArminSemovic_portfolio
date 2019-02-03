@@ -7,7 +7,10 @@
   <title>Armin Semovic</title>
 
   <!-- Didot font from google -->
-  <link href="https://fonts.googleapis.com/css?family=GFS+Didot" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=GFS+Didot|Open+Sans" rel="stylesheet">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
   <link rel="stylesheet" href="css/style.css">
@@ -20,7 +23,7 @@
     </div>
 
     <div class="hamburger">
-      <!-- LINK TO ICON -->
+      <i class="fas fa-bars"></i>
     </div>
   </header>
 
@@ -70,7 +73,11 @@
     <img src="images/armin.png" alt="Armin">
 
     <div class="contact-info">
-      
+      <h4 class="contact-miniheading">Contact me:</h4>
+      <p class="contact-email">arminsemovic@gmail.com</p>
+      <h4 class="contact-miniheading">Follow me:</h4>
+      <i class="fab fa-instagram"></i>
+      <p>@arminsemovic</p>
     </div>
 
   </main>

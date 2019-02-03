@@ -1,4 +1,13 @@
-h1{
-  font-family: 'Didot', Garamond;
+h1, 
+h2, 
+h3, 
+h4, 
+p{
   color: #ffffff;
+  
+  .caption-heading, 
+  .sub-heading, 
+  .contact-miniheading{
+    font-family: 'GFS Didot', serif;
+  }
 }

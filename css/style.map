@@ -2,13 +2,11 @@
 	"version": 3,
 	"file": "../sass/style.css",
 	"sources": [
-		"../sass/style.scss",
-		"../sass/_typography.scss"
+		"../sass/style.scss"
 	],
 	"sourcesContent": [
-		"@import 'typography.scss';\r\n\r\nbody {\r\n  background: url(../images/leather_background.jpg) center fixed;\r\n  background-size: cover;\r\n}",
-		"h1{\r\n  font-family: Garamond;\r\n  color: #ffffff;\r\n}"
+		"h1, \r\nh2, \r\nh3, \r\nh4{\r\n  color: #ffffff;\r\n  .caption-heading, \r\n  .sub-heading, \r\n  .contact-miniheading{\r\n    font-family: 'GFS Didot', serif;\r\n    font-weight: lighter;\r\n  }\r\n}\r\np{\r\n  color: #ffffff;\r\n  font-family: 'Open Sans', sans-serif;\r\n}\r\n\r\nbody {\r\n  background: url(../images/leather_background.jpg) center fixed;\r\n  background-size: cover;\r\n  margin: 0;\r\n}\r\n\r\n.navbar{\r\n  background-color: black;\r\n}\r\n\r\nimg{\r\n  width: 100%;\r\n}"
 	],
-	"mappings": ";ACAA,AAAA,EAAE,CAAA;EACA,WAAW,EAAE,QAAS;EACtB,KAAK,EAAE,OAAQ;CAChB;;;ADDD,AAAA,IAAI,CAAC;EACH,UAAU,EAAsC,qCAAC,CAAC,MAAM,CAAC,KAAK;EAC9D,eAAe,EAAE,KAAM;CACxB",
+	"mappings": ";AAAA,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE,CAAA;EACA,KAAK,EAAE,OAAQ;CAOhB;;;AAXD,AAKE,EALA,CAKA,gBAAgB;AALlB,AAME,EANA,CAMA,YAAY;AANd,AAOE,EAPA,CAOA,oBAAoB;AANtB,AAIE,EAJA,CAIA,gBAAgB;AAJlB,AAKE,EALA,CAKA,YAAY;AALd,AAME,EANA,CAMA,oBAAoB;AALtB,AAGE,EAHA,CAGA,gBAAgB;AAHlB,AAIE,EAJA,CAIA,YAAY;AAJd,AAKE,EALA,CAKA,oBAAoB;AAJtB,AAEE,EAFA,CAEA,gBAAgB;AAFlB,AAGE,EAHA,CAGA,YAAY;AAHd,AAIE,EAJA,CAIA,oBAAoB,CAAA;EAClB,WAAW,EAAE,kBAAmB;EAChC,WAAW,EAAE,OAAQ;CACtB;;;AAEH,AAAA,CAAC,CAAA;EACC,KAAK,EAAE,OAAQ;EACf,WAAW,EAAE,uBAAwB;CACtC;;;AAED,AAAA,IAAI,CAAC;EACH,UAAU,EAAsC,qCAAC,CAAC,MAAM,CAAC,KAAK;EAC9D,eAAe,EAAE,KAAM;EACvB,MAAM,EAAE,CAAE;CACX;;;AAED,AAAA,OAAO,CAAA;EACL,gBAAgB,EAAE,KAAM;CACzB;;;AAED,AAAA,GAAG,CAAA;EACD,KAAK,EAAE,IAAK;CACb",
 	"names": []
 }

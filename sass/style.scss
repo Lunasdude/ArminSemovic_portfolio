@@ -1,6 +1,30 @@
-@import 'typography.scss';
+h1, 
+h2, 
+h3, 
+h4{
+  color: #ffffff;
+  .caption-heading, 
+  .sub-heading, 
+  .contact-miniheading{
+    font-family: 'GFS Didot', serif;
+    font-weight: lighter;
+  }
+}
+p{
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
 
 body {
   background: url(../images/leather_background.jpg) center fixed;
   background-size: cover;
+  margin: 0;
+}
+
+.navbar{
+  background-color: black;
+}
+
+img{
+  width: 100%;
 }
