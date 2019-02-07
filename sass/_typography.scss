@@ -1,13 +1,16 @@
 h1, 
 h2, 
 h3, 
-h4, 
-p{
+h4{
   color: #ffffff;
   
   .caption-heading, 
   .sub-heading, 
   .contact-miniheading{
-    font-family: 'GFS Didot', serif;
+    font-family: 'Cormorant Garamond', serif;
   }
+}
+p{
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
 }

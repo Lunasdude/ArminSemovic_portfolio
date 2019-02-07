@@ -1,23 +1,7 @@
-h1, 
-h2, 
-h3, 
-h4{
-  color: #ffffff;
-  .caption-heading, 
-  .sub-heading, 
-  .contact-miniheading{
-    font-family: 'GFS Didot', serif;
-    font-weight: lighter;
-  }
-}
-p{
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-}
+@import 'typography';
+@import 'images';
 
-body {
-  background: url(../images/leather_background.jpg) center fixed;
-  background-size: cover;
+body{
   margin: 0;
 }
 
@@ -25,6 +9,8 @@ body {
   background-color: black;
 }
 
-img{
-  width: 100%;
+*{
+  align-self: center;
+  text-align: center;
+  justify-content: center;
 }

@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Armin Semovic</title>
 
-  <!-- Didot font from google -->
-  <link href="https://fonts.googleapis.com/css?family=GFS+Didot|Open+Sans" rel="stylesheet">
-  
+  <!-- Garamond font from google -->
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+
   <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 

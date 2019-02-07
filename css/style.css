@@ -1,12 +1,9 @@
-/* line 1, D:/Desktop/htdocs/ArminSemovic_portfolio/sass/style.scss */
 h1,
 h2,
 h3,
 h4 {
   color: #ffffff;
 }
-
-/* line 6, D:/Desktop/htdocs/ArminSemovic_portfolio/sass/style.scss */
 h1 .caption-heading,
 h1 .sub-heading,
 h1 .contact-miniheading,
@@ -19,31 +16,31 @@ h3 .contact-miniheading,
 h4 .caption-heading,
 h4 .sub-heading,
 h4 .contact-miniheading {
-  font-family: 'GFS Didot', serif;
-  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
 }
 
-/* line 13, D:/Desktop/htdocs/ArminSemovic_portfolio/sass/style.scss */
 p {
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-/* line 18, D:/Desktop/htdocs/ArminSemovic_portfolio/sass/style.scss */
 body {
   background: url(../images/leather_background.jpg) center fixed;
   background-size: cover;
+}
+
+body {
   margin: 0;
 }
 
-/* line 24, D:/Desktop/htdocs/ArminSemovic_portfolio/sass/style.scss */
 .navbar {
   background-color: black;
 }
 
-/* line 28, D:/Desktop/htdocs/ArminSemovic_portfolio/sass/style.scss */
-img {
-  width: 100%;
+* {
+  align-self: center;
+  text-align: center;
+  justify-content: center;
 }
 
-/*# sourceMappingURL=../css/style.map */
+/*# sourceMappingURL=style.css.map */
