@@ -3,6 +3,7 @@ h2,
 h3,
 h4 {
   color: #ffffff;
+  margin: 0;
 }
 h1 .caption-heading,
 h1 .sub-heading,
@@ -24,9 +25,64 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
+.logo {
+  font-size: 1.2rem;
+  padding: 1rem 0.8rem;
+}
+
+.text-block {
+  margin: 200px 0 100px 0;
+  padding: 0 3rem;
+}
+.text-block .sub-heading {
+  font-size: 2rem;
+}
+.text-block p {
+  line-height: 24px;
+}
+
+.contact-info {
+  margin: 50px 0;
+  text-align: center;
+}
+.contact-info .contact-miniheading {
+  font-size: 1.3rem;
+}
+.contact-info i.fab.fa-instagram {
+  margin: 0.5rem;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
 body {
   background: url(../images/leather_background.jpg) center fixed;
   background-size: cover;
+}
+
+.captioned-image {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 150px;
+}
+.captioned-image img {
+  width: 100%;
+}
+
+.contact-image {
+  display: flex;
+  justify-content: center;
+  max-height: 400px;
+}
+.contact-image img {
+  width: 55%;
+}
+
+.hamburger img {
+  width: 70px;
+  height: 70px;
+  padding: 0 0.1rem;
+  filter: invert(1);
 }
 
 body {
@@ -35,12 +91,28 @@ body {
 
 .navbar {
   background-color: black;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 150px;
+  width: 100%;
 }
 
-* {
-  align-self: center;
-  text-align: center;
+.image-caption {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
   justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 80%;
+  line-height: 60px;
+}
+.image-caption h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

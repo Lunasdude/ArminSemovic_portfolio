@@ -23,7 +23,7 @@
     </div>
 
     <div class="hamburger">
-      <i class="fas fa-bars"></i>
+      <img src="svg/hamburger_nav.svg" alt="Hamburger menu collapse toggle">
     </div>
   </header>
 
@@ -34,7 +34,6 @@
       <div class="image-caption">
         <h2 class="caption-heading">
           ART
-          <br>
           DIRECTION
         </h2>
       </div>
@@ -47,7 +46,6 @@
       <div class="image-caption">
         <h2 class="caption-heading">
           CONTENT
-          <br>
           CREATION
         </h2>
       </div>
@@ -69,8 +67,10 @@
         New Balance_ Calvin Klein
       </p>
     </div>
-
-    <img src="images/armin.png" alt="Armin">
+    
+    <div class="contact-image">
+      <img src="images/armin.png" alt="Armin">
+    </div>
 
     <div class="contact-info">
       <h4 class="contact-miniheading">Contact me:</h4>

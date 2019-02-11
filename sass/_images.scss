@@ -2,3 +2,26 @@ body{
   background: url(../images/leather_background.jpg) center fixed;
   background-size: cover;
 }
+.captioned-image{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  img{
+    width: 100%;  
+  }
+  margin-bottom: 150px;
+}
+.contact-image{
+  display: flex;
+  justify-content: center;
+  max-height: 400px;
+  img{
+    width: 55%;
+  }
+}
+.hamburger img{
+  width: 70px;
+  height: 70px;
+  padding: 0 0.1rem;
+  filter: invert(1);
+}
