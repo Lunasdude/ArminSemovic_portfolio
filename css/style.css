@@ -71,11 +71,13 @@ body {
 
 .contact-image {
   display: flex;
-  justify-content: center;
-  max-height: 400px;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 55%;
 }
 .contact-image img {
-  width: 55%;
+  height: 100%;
+  width: 100%;
 }
 
 .hamburger img {
@@ -112,7 +114,6 @@ body {
 .image-caption h2 {
   font-size: 2.5rem;
   text-align: center;
-  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

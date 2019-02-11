@@ -13,10 +13,12 @@ body{
 }
 .contact-image{
   display: flex;
-  justify-content: center;
-  max-height: 400px;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 55%;
   img{
-    width: 55%;
+    height: 100%;
+    width: 100%;
   }
 }
 .hamburger img{
