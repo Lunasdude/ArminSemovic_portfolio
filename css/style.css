@@ -4,20 +4,8 @@ h3,
 h4 {
   color: #ffffff;
   margin: 0;
-}
-h1 .caption-heading,
-h1 .sub-heading,
-h1 .contact-miniheading,
-h2 .caption-heading,
-h2 .sub-heading,
-h2 .contact-miniheading,
-h3 .caption-heading,
-h3 .sub-heading,
-h3 .contact-miniheading,
-h4 .caption-heading,
-h4 .sub-heading,
-h4 .contact-miniheading {
   font-family: "Cormorant Garamond", serif;
+  font-weight: normal;
 }
 
 p {
@@ -25,20 +13,11 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.logo {
-  font-size: 1.2rem;
-  padding: 1rem 0.8rem;
-}
-
 .text-block {
-  margin: 200px 0 100px 0;
-  padding: 0 3rem;
+  margin: 200px 3rem 100px;
 }
 .text-block .sub-heading {
   font-size: 2rem;
-}
-.text-block p {
-  line-height: 24px;
 }
 
 .contact-info {
@@ -69,9 +48,23 @@ body {
   width: 100%;
 }
 
-.contact-image {
+.image-caption {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 7.5%;
+  width: 85%;
+  line-height: 4rem;
+}
+.image-caption h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.contact-image {
   margin: 0 auto;
   width: 55%;
 }
@@ -80,40 +73,92 @@ body {
   width: 100%;
 }
 
-.hamburger img {
-  width: 70px;
-  height: 70px;
-  padding: 0 0.1rem;
-  filter: invert(1);
-}
-
 body {
   margin: 0;
 }
 
-.navbar {
+main {
+  width: 100%;
+}
+
+.navbar-mobile-dark {
   background-color: black;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   height: 150px;
-  width: 100%;
+}
+.navbar-mobile-dark .logo {
+  font-size: 1.2rem;
+  padding: 1rem 0.8rem;
+}
+.navbar-mobile-dark .hamburger {
+  filter: invert(1);
+  height: 70px;
+  width: 70px;
+  padding: 0 0.1rem;
 }
 
-.image-caption {
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.6);
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  width: 80%;
-  line-height: 60px;
+@media (min-width: 768px) {
+  main {
+    padding-top: 100px;
+  }
+
+  .navbar-mobile-dark {
+    padding: 0 2%;
+  }
+
+  .image-caption {
+    left: 12.5%;
+    width: 75%;
+  }
+  .image-caption h2 {
+    font-size: 2.8rem;
+  }
+
+  .captioned-image {
+    width: 55%;
+    margin: 0 auto 150px;
+  }
+  .captioned-image img {
+    width: 100%;
+  }
+
+  .contact-info {
+    margin: 20px auto 100px;
+  }
+
+  .contact-image {
+    width: 55%;
+  }
+
+  .text-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    width: 55%;
+  }
+  .text-block .sub-heading {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .text-block .bio {
+    width: 60%;
+  }
+  .text-block .clients {
+    margin-left: 10%;
+    width: 30%;
+  }
 }
-.image-caption h2 {
-  font-size: 2.5rem;
-  text-align: center;
+@media (min-width: 1024px) {
+  header .logo, header .hamburger {
+    display: none;
+  }
 }
+/*
+@media (min-width: 1200px) {
+
+}
+*/
 
 /*# sourceMappingURL=style.css.map */

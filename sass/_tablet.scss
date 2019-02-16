@@ -1,0 +1,50 @@
+main{
+  padding-top: 100px;
+}
+.navbar-mobile-dark{
+  padding: 0 2%;
+}
+
+// IMAGES
+.image-caption{
+  left: 12.5%;
+  width: 75%;
+
+  h2{
+    font-size: 2.8rem;
+  }
+}
+.captioned-image{
+  width: 55%;
+  margin:0 auto 150px;
+
+  img{
+    width: 100%;  
+  }
+}
+.contact-info{
+  margin: 20px auto 100px;
+}
+.contact-image{
+  width: 55%;
+}
+
+// TEXT BLOCK
+.text-block{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px auto;
+  width: 55%;
+
+  .sub-heading{
+    font-size: 2rem;
+    width: 100%;
+  }
+  .bio{
+    width: 60%;
+  }
+  .clients{
+    margin-left: 10%;
+    width: 30%;
+  }
+}
