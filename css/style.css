@@ -44,10 +44,20 @@ p {
   margin: 50px 0;
   text-align: center;
 }
-.contact-info .contact-miniheading {
+
+.contact {
+  margin-bottom: 40px;
+}
+
+.contact-miniheading {
   font-size: 1.3rem;
 }
-.contact-info i.fab.fa-instagram {
+
+.contact-prompt {
+  display: none;
+}
+
+i.fab.fa-instagram {
   margin: 0.5rem;
   color: #ffffff;
   font-size: 2rem;
@@ -157,6 +167,10 @@ main {
     margin-left: 10%;
     width: 30%;
   }
+
+  .contact-info .contact-miniheading {
+    font-size: 1.6rem;
+  }
 }
 @media (min-width: 1024px) {
   header .logo, header .hamburger {
@@ -172,6 +186,14 @@ main {
   }
 
   .namesplash {
+    display: block;
+  }
+
+  .contact-image {
+    display: none;
+  }
+
+  .contact-prompt {
     display: block;
   }
 }
