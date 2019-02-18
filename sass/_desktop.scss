@@ -1,13 +1,12 @@
-header{
-  .logo, .hamburger{
-    display: none;
-  }
+.logo, .hamburger{
+  display: none !important;
 }
 
-.navbar-mobile-dark{
+
+.navbar-mobile{
   display: none;
 }
-.navbar-desktop-dark{
+.navbar-desktop{
   display: block;
 }
 
@@ -15,6 +14,10 @@ header{
   display: block;
 }
 
+.captioned-image{
+  width: 35%;
+  margin: 0 auto 220px;
+}
 
 .contact-image{
   display: none;

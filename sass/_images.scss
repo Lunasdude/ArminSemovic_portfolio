@@ -1,4 +1,4 @@
-body{
+.dark{
   background: url(../images/leather_background.jpg) center fixed;
   background-size: cover;
 }
@@ -7,7 +7,6 @@ body{
   position: relative;
   text-align: center;
   width: 100%;
-
   img{
     width: 100%;  
   }
@@ -23,18 +22,6 @@ body{
   }
 }
 
-div[class^="cluster"] {
-  position: absolute;
-}
-.cluster-artdirection-left{
-  background-image: url(../images/1805_Plaza_02_109.jpg);
-}
-.cluster-artdirection-right{
-  background-image: url(../images/1805_Plaza_03_318.jpg);
-}
-.cluster-contentdirection-left{
-
-}
-.cluster-contentdirection-right{
-
+.gallery{
+  
 }

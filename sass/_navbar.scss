@@ -1,4 +1,5 @@
-.navbar-mobile-dark{
+.navbar-mobile{
+  background-color: black;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -14,9 +15,15 @@
     width: 70px;
     padding: 0 0.1rem;
   }
+  
+}.navbar-mobile.light{
+  background-color: white;
+  .hamburger{
+    filter: invert(0);
+  }
 }
 
-.navbar-desktop-dark{
+.navbar-desktop{
   display: none;
   div{
     margin: 0;

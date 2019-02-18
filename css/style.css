@@ -1,16 +1,20 @@
-h1,
-h2,
-h3,
-h4 {
+.dark h1, .dark h2, .dark h3, .dark h4 {
   color: #ffffff;
-  margin: 0;
   font-family: "Cormorant Garamond", serif;
-  font-weight: normal;
+  margin: 0;
+}
+.dark p, .dark a {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
 }
 
-p,
-a {
-  color: #ffffff;
+.light h1, .light h2, .light h3, .light h4 {
+  color: #000000;
+  font-family: "Cormorant Garamond", serif;
+  margin: 0;
+}
+.light p, .light a {
+  color: #000000;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -70,7 +74,7 @@ i.fab.fa-instagram {
   margin: 0.5rem;
 }
 
-body {
+.dark {
   background: url(../images/leather_background.jpg) center fixed;
   background-size: cover;
 }
@@ -94,39 +98,35 @@ body {
   width: 100%;
 }
 
-div[class^=cluster] {
-  position: absolute;
-}
-
-.cluster-artdirection-left {
-  background-image: url(../images/1805_Plaza_02_109.jpg);
-}
-
-.cluster-artdirection-right {
-  background-image: url(../images/1805_Plaza_03_318.jpg);
-}
-
-.navbar-mobile-dark {
+.navbar-mobile {
+  background-color: black;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   height: 150px;
 }
-.navbar-mobile-dark .logo {
+.navbar-mobile .logo {
   font-size: 1.2rem;
   padding: 1rem 0.8rem;
 }
-.navbar-mobile-dark .hamburger {
+.navbar-mobile .hamburger {
   filter: invert(1);
   height: 70px;
   width: 70px;
   padding: 0 0.1rem;
 }
 
-.navbar-desktop-dark {
+.navbar-mobile.light {
+  background-color: white;
+}
+.navbar-mobile.light .hamburger {
+  filter: invert(0);
+}
+
+.navbar-desktop {
   display: none;
 }
-.navbar-desktop-dark div {
+.navbar-desktop div {
   margin: 0;
   position: fixed;
   text-align: center;
@@ -174,7 +174,7 @@ main {
     padding-top: 100px;
   }
 
-  .navbar-mobile-dark {
+  .navbar-mobile {
     padding: 0 2%;
   }
 
@@ -189,9 +189,6 @@ main {
   .captioned-image {
     width: 55%;
     margin: 0 auto 150px;
-  }
-  .captioned-image img {
-    width: 100%;
   }
 
   .contact-info {
@@ -224,34 +221,26 @@ main {
     font-size: 1.6rem;
   }
 }
-@media (min-width: 1024px) {
-  header {
-    color: white;
-  }
-  header .logo, header .hamburger {
-    display: none;
-  }
-  header div {
-    margin: 0;
-    position: fixed;
-    text-align: center;
-    width: 150px;
+@media (min-width: 1200px) {
+  .logo, .hamburger {
+    display: none !important;
   }
 
-  main {
-    margin-top: 400px;
-  }
-
-  .navbar-mobile-dark {
+  .navbar-mobile {
     display: none;
   }
 
-  .navbar-desktop-dark {
+  .navbar-desktop {
     display: block;
   }
 
   .namesplash {
     display: block;
+  }
+
+  .captioned-image {
+    width: 35%;
+    margin: 0 auto 220px;
   }
 
   .contact-image {
