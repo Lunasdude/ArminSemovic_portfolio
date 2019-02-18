@@ -3,10 +3,10 @@ body{
   background-size: cover;
 }
 .captioned-image{
+  margin-bottom: 150px;
   position: relative;
   text-align: center;
   width: 100%;
-  margin-bottom: 150px;
 
   img{
     width: 100%;  
@@ -21,4 +21,20 @@ body{
     height: 100%;
     width: 100%;
   }
+}
+
+div[class^="cluster"] {
+  position: absolute;
+}
+.cluster-artdirection-left{
+  background-image: url(../images/1805_Plaza_02_109.jpg);
+}
+.cluster-artdirection-right{
+  background-image: url(../images/1805_Plaza_03_318.jpg);
+}
+.cluster-contentdirection-left{
+
+}
+.cluster-contentdirection-right{
+
 }

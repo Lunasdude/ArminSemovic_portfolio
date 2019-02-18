@@ -8,13 +8,20 @@ h4 {
   font-weight: normal;
 }
 
-p {
+p,
+a {
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
 }
 
 .namesplash {
   display: none;
+  font-size: 4rem;
+  margin: 400px auto 600px;
+  text-align: center;
+}
+.namesplash .subsplash {
+  font-size: 1rem;
 }
 
 .image-caption {
@@ -25,8 +32,8 @@ p {
   position: absolute;
   top: 50%;
   left: 7.5%;
-  width: 85%;
   line-height: 4rem;
+  width: 85%;
 }
 .image-caption h2 {
   font-size: 2.5rem;
@@ -58,9 +65,9 @@ p {
 }
 
 i.fab.fa-instagram {
-  margin: 0.5rem;
   color: #ffffff;
   font-size: 2rem;
+  margin: 0.5rem;
 }
 
 body {
@@ -69,10 +76,10 @@ body {
 }
 
 .captioned-image {
+  margin-bottom: 150px;
   position: relative;
   text-align: center;
   width: 100%;
-  margin-bottom: 150px;
 }
 .captioned-image img {
   width: 100%;
@@ -87,8 +94,19 @@ body {
   width: 100%;
 }
 
+div[class^=cluster] {
+  position: absolute;
+}
+
+.cluster-artdirection-left {
+  background-image: url(../images/1805_Plaza_02_109.jpg);
+}
+
+.cluster-artdirection-right {
+  background-image: url(../images/1805_Plaza_03_318.jpg);
+}
+
 .navbar-mobile-dark {
-  background-color: black;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -107,6 +125,40 @@ body {
 
 .navbar-desktop-dark {
   display: none;
+}
+.navbar-desktop-dark div {
+  margin: 0;
+  position: fixed;
+  text-align: center;
+  width: 150px;
+}
+
+.nav-home {
+  transform: rotate(270deg);
+  top: 160px;
+  left: 40px;
+  text-align: right;
+}
+
+.nav-about {
+  transform: rotate(90deg);
+  top: 160px;
+  right: 40px;
+  text-align: left;
+}
+
+.nav-work {
+  transform: rotate(270deg);
+  bottom: 160px;
+  left: 40px;
+  text-align: left;
+}
+
+.nav-contact {
+  transform: rotate(90deg);
+  bottom: 160px;
+  right: 40px;
+  text-align: right;
 }
 
 body {
@@ -173,8 +225,21 @@ main {
   }
 }
 @media (min-width: 1024px) {
+  header {
+    color: white;
+  }
   header .logo, header .hamburger {
     display: none;
+  }
+  header div {
+    margin: 0;
+    position: fixed;
+    text-align: center;
+    width: 150px;
+  }
+
+  main {
+    margin-top: 400px;
   }
 
   .navbar-mobile-dark {

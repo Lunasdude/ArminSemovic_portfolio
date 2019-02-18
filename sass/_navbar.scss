@@ -1,5 +1,4 @@
 .navbar-mobile-dark{
-  background-color: black;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -19,4 +18,36 @@
 
 .navbar-desktop-dark{
   display: none;
+  div{
+    margin: 0;
+    position: fixed;
+    text-align: center;
+    width: 150px;
+  }
+}
+
+
+.nav-home{
+  transform: rotate(270deg);
+  top: 160px;
+  left: 40px;
+  text-align: right;
+}
+.nav-about{
+  transform: rotate(90deg);
+  top: 160px;
+  right: 40px;
+  text-align: left;
+}
+.nav-work{
+  transform: rotate(270deg);
+  bottom: 160px;
+  left: 40px;
+  text-align: left;
+}
+.nav-contact{
+  transform: rotate(90deg);
+  bottom: 160px;
+  right: 40px;
+  text-align: right;
 }
