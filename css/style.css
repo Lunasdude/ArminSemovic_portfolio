@@ -98,6 +98,15 @@ i.fab.fa-instagram {
   width: 100%;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.gallery .galleryimage {
+  flex: 0 0 auto;
+}
+
 .navbar-mobile {
   background-color: black;
   display: flex;
@@ -129,7 +138,6 @@ i.fab.fa-instagram {
 .navbar-desktop div {
   margin: 0;
   position: fixed;
-  text-align: center;
   width: 150px;
 }
 
@@ -236,6 +244,12 @@ main {
 
   .namesplash {
     display: block;
+  }
+
+  .arrowdown {
+    display: block;
+    margin: 200px auto 0;
+    width: 200px;
   }
 
   .captioned-image {
