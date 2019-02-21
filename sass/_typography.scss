@@ -7,6 +7,9 @@
   p, a{
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+  }a:hover{
+    text-decoration: line-through;
   }
 }
 .light {
@@ -18,6 +21,9 @@
   p, a{
     color: #000000;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+  }a:hover{
+    text-decoration: line-through;
   }
 }
 
@@ -31,22 +37,30 @@
   }
 }
 
-.image-caption{
-  align-items: center;
-  background-color: rgba(0,0,0,0.6);
+.container{
+  display: block;
+  height: 300px;
+  width: 100%
+}
+.postgroup{
   display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 7.5%;
-  line-height: 4rem;
-  width: 85%;
-
-  h2{
-    font-size: 2.5rem;
-    text-align: center;
+  top: 125px;
+  left: -90px;
+  transform: rotate(270deg);
+  position: relative;
+  width: 300px;
+  .groupname{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1px;
+  }.blackline{
+    background-color: #000000;
+    height: 2px;
+    margin: auto 0 auto 10px;
+    width: 80px;
   }
 }
+
 
 .text-block{
   margin: 200px 3rem 100px;

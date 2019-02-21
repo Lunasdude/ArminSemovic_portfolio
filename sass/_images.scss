@@ -10,7 +10,23 @@
   img{
     width: 100%;  
   }
+}.image-caption{
+  align-items: center;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 7.5%;
+  line-height: 4rem;
+  width: 85%;
+
+  h2{
+    font-size: 2.5rem;
+    text-align: center;
+  }
 }
+
 
 .contact-image{
   margin: 0 auto;
@@ -23,11 +39,29 @@
 }
 
 .gallery{
-  display: flex;
+  display: none;
   flex-wrap: nowrap;
+  height: 550px;
   overflow-x: auto;
-
-  .galleryimage{
-    flex: 0 0 auto;
+  margin: 160px 0 140px 180px;
+  .gallery-caption{
+    bottom: 170px;
+    display: inline;
+    font-size: 1.2rem; 
+    position: absolute;
+    transform: rotate(270deg) translateX(-180px);
+    transform-origin: left bottom;
   }
+  .gallery-image{
+    flex: 0 0 auto;
+    height: 450px;
+    margin-right: 150px;
+    position: relative;
+    img{
+      height: 100%;
+    }
+  }
+}
+.down{
+  margin-top: 60px;
 }

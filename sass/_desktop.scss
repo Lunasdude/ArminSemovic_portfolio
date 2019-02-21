@@ -1,13 +1,24 @@
+main{
+  padding-top: 0px;
+}
+
 .logo, .hamburger{
   display: none !important;
 }
-
 
 .navbar-mobile{
   display: none;
 }
 .navbar-desktop{
   display: block;
+}
+
+.mobile-images{
+  display: none;
+}
+
+.gallery{
+  display: flex;
 }
 
 .namesplash{
@@ -22,6 +33,9 @@
 .captioned-image{
   width: 35%;
   margin: 0 auto 220px;
+}
+.postgroup{
+  display: none;
 }
 
 .contact-image{

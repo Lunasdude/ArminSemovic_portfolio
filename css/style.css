@@ -6,6 +6,10 @@
 .dark p, .dark a {
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+.dark a:hover {
+  text-decoration: line-through;
 }
 
 .light h1, .light h2, .light h3, .light h4 {
@@ -16,6 +20,10 @@
 .light p, .light a {
   color: #000000;
   font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+.light a:hover {
+  text-decoration: line-through;
 }
 
 .namesplash {
@@ -28,20 +36,30 @@
   font-size: 1rem;
 }
 
-.image-caption {
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.6);
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 7.5%;
-  line-height: 4rem;
-  width: 85%;
+.container {
+  display: block;
+  height: 300px;
+  width: 100%;
 }
-.image-caption h2 {
-  font-size: 2.5rem;
-  text-align: center;
+
+.postgroup {
+  display: flex;
+  top: 125px;
+  left: -90px;
+  transform: rotate(270deg);
+  position: relative;
+  width: 300px;
+}
+.postgroup .groupname {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  padding: 1px;
+}
+.postgroup .blackline {
+  background-color: #000000;
+  height: 2px;
+  margin: auto 0 auto 10px;
+  width: 80px;
 }
 
 .text-block {
@@ -89,6 +107,22 @@ i.fab.fa-instagram {
   width: 100%;
 }
 
+.image-caption {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 7.5%;
+  line-height: 4rem;
+  width: 85%;
+}
+.image-caption h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
 .contact-image {
   margin: 0 auto;
   width: 55%;
@@ -99,12 +133,32 @@ i.fab.fa-instagram {
 }
 
 .gallery {
-  display: flex;
+  display: none;
   flex-wrap: nowrap;
+  height: 550px;
   overflow-x: auto;
+  margin: 160px 0 140px 180px;
 }
-.gallery .galleryimage {
+.gallery .gallery-caption {
+  bottom: 170px;
+  display: inline;
+  font-size: 1.2rem;
+  position: absolute;
+  transform: rotate(270deg) translateX(-180px);
+  transform-origin: left bottom;
+}
+.gallery .gallery-image {
   flex: 0 0 auto;
+  height: 450px;
+  margin-right: 150px;
+  position: relative;
+}
+.gallery .gallery-image img {
+  height: 100%;
+}
+
+.down {
+  margin-top: 60px;
 }
 
 .navbar-mobile {
@@ -148,14 +202,14 @@ i.fab.fa-instagram {
   text-align: right;
 }
 
-.nav-about {
+.nav-work {
   transform: rotate(90deg);
   top: 160px;
   right: 40px;
   text-align: left;
 }
 
-.nav-work {
+.nav-about {
   transform: rotate(270deg);
   bottom: 160px;
   left: 40px;
@@ -180,6 +234,10 @@ main {
 @media (min-width: 768px) {
   main {
     padding-top: 100px;
+  }
+
+  body.light main {
+    padding-top: 0;
   }
 
   .navbar-mobile {
@@ -230,6 +288,10 @@ main {
   }
 }
 @media (min-width: 1200px) {
+  main {
+    padding-top: 0px;
+  }
+
   .logo, .hamburger {
     display: none !important;
   }
@@ -240,6 +302,14 @@ main {
 
   .navbar-desktop {
     display: block;
+  }
+
+  .mobile-images {
+    display: none;
+  }
+
+  .gallery {
+    display: flex;
   }
 
   .namesplash {
@@ -255,6 +325,10 @@ main {
   .captioned-image {
     width: 35%;
     margin: 0 auto 220px;
+  }
+
+  .postgroup {
+    display: none;
   }
 
   .contact-image {
