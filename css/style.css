@@ -27,10 +27,14 @@
 }
 
 .namesplash {
+  align-items: center;
   display: none;
+  flex-direction: column;
   font-size: 4rem;
-  margin: 400px auto 600px;
+  height: 100vh;
+  margin: 0;
   text-align: center;
+  width: 100%;
 }
 .namesplash .subsplash {
   font-size: 1rem;
@@ -43,23 +47,36 @@
 }
 
 .postgroup {
-  display: flex;
   top: 125px;
   left: -90px;
+  margin-top: 40px;
   transform: rotate(270deg);
   position: relative;
   width: 300px;
 }
-.postgroup .groupname {
-  display: block;
+
+h3.groupname {
   font-family: "Open Sans", sans-serif;
   padding: 1px;
 }
-.postgroup .blackline {
-  background-color: #000000;
-  height: 2px;
-  margin: auto 0 auto 10px;
-  width: 80px;
+
+.endline {
+  display: block;
+  width: 100%;
+}
+.endline:after {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  height: 0.5em;
+  border-top: 1px solid black;
+  z-index: -1;
+}
+.endline span {
+  background-color: white;
+  padding-right: 10px;
 }
 
 .text-block {
@@ -146,6 +163,9 @@ i.fab.fa-instagram {
   position: absolute;
   transform: rotate(270deg) translateX(-180px);
   transform-origin: left bottom;
+}
+.gallery .gallery-heading {
+  font-size: 3rem;
 }
 .gallery .gallery-image {
   flex: 0 0 auto;
@@ -313,7 +333,7 @@ main {
   }
 
   .namesplash {
-    display: block;
+    display: flex;
   }
 
   .arrowdown {
