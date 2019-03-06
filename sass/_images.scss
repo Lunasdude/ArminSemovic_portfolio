@@ -52,6 +52,9 @@
     transform: rotate(270deg) translateX(-180px);
     transform-origin: left bottom;
   }
+  .gallery-heading{
+    font-size: 3rem;
+  }
   .gallery-image{
     flex: 0 0 auto;
     height: 450px;
@@ -60,6 +63,9 @@
     img{
       height: 100%;
     }
+  }
+  .gallery-image:last-of-type{
+    padding-right: 200px;
   }
 }
 .down{
