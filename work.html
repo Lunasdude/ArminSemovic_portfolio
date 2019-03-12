@@ -100,7 +100,7 @@
     </section>
 
 
-    <section class="gallery"> <!--DESKTOP ONLY-->
+    <section class="gallery" id="gallery1"> <!--DESKTOP ONLY-->
       <div class="gallery-image">
         <img src="images/parfume_bottles.png" alt="Perfume bottles">
         <h2 class="gallery-heading">AUTUMN SCENTS</h2>
@@ -129,7 +129,12 @@
 
     </section>
 
-    <section class="gallery"> <!--DESKTOP ONLY-->
+    <div class="scroll-buttons">
+      <button id="left-button"><</button>
+      <button id="right-button">></button>
+    </div>
+
+    <section class="gallery" id="gallery2"> <!--DESKTOP ONLY-->
       <div class="gallery-image">
         <img src="images/spring_grooming.jpg" alt="Rustic display of skincare products">
         <h2 class="gallery-heading">SPRING GROOMING</h2>
@@ -154,5 +159,9 @@
     </section>
 
   </main>
+
+  <script data-require="jquery" data-semver="2.1.1" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
 </body>
 </html>
