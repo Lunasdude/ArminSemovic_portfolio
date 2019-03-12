@@ -1,12 +1,18 @@
 $(document).ready(function(){
-  var target = "#gallery1";
+  
+  $("#hamburger").click(function() {
+    $("#navbar-mobile-expansion").toggle();
+  });
+
+  
+  var target = "gallery1";
 
   $(window).scroll(function(){
     var scrollFromTop = parseInt($(window).scrollTop());
     if (scrollFromTop < 300) { 
-      target = "#gallery1"; 
+      target = "gallery1"; 
     }else{ 
-      target = "#gallery2"; 
+      target = "gallery2"; 
     }
   });
 
@@ -21,5 +27,5 @@ $(document).ready(function(){
     $(target).animate({
       scrollLeft: "-=350px"
     }, "slow");
-  });
+  });  
 });

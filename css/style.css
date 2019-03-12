@@ -215,9 +215,18 @@ i.fab.fa-instagram {
   display: none;
   width: 100%;
 }
-#navbar-mobile-expansion li {
+#navbar-mobile-expansion ul {
+  padding: 0;
+}
+#navbar-mobile-expansion ul li {
+  align-items: center;
   background-color: black;
   height: 100px;
+  text-align: center;
+}
+
+#navbar-mobile-expansion.light li {
+  background-color: white;
 }
 
 .navbar-desktop {

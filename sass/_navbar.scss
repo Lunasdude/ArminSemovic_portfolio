@@ -25,9 +25,18 @@
 #navbar-mobile-expansion{
   display: none;
   width: 100%;
+  ul{
+    padding: 0;
+    li{
+      align-items: center;
+      background-color: black;
+      height: 100px;
+      text-align: center;
+    }
+  }
+}#navbar-mobile-expansion.light{
   li{
-    background-color: black;
-    height: 100px;
+    background-color: white;
   }
 }
 
