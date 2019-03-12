@@ -9,7 +9,7 @@
     font-size: 1.2rem;
     padding: 1rem 0.8rem;
   }
-  .hamburger{
+  #hamburger{
     filter: invert(1);
     height: 70px;
     width: 70px;
@@ -17,14 +17,23 @@
   }
 }.navbar-mobile.light{
   background-color: white;
-  .hamburger{
+  #hamburger{
     filter: invert(0);
   }
 }
 
+#navbar-mobile-expansion{
+  display: none;
+  width: 100%;
+  li{
+    background-color: black;
+    height: 100px;
+  }
+}
+
+
 .navbar-desktop{
   display: none;
-  
   div{
     margin: 0;
     position: fixed;

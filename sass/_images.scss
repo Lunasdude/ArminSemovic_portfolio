@@ -42,8 +42,8 @@
   display: none;
   flex-wrap: nowrap;
   height: 560px;
-  overflow-x: auto;
-  margin: 160px 0 140px 180px;
+  overflow-x: hidden;
+  margin: 200px 0 140px;
   .gallery-caption{
     bottom: 170px;
     display: inline;
@@ -59,10 +59,14 @@
     flex: 0 0 auto;
     height: 450px;
     margin-right: 150px;
-    position: relative;
+    position: relative; //This is the only way I can make the captions align. Sadly it results in links being covered by images
     img{
       height: 100%;
     }
+  }
+
+  .gallery-image:first-of-type{
+    padding-left: 200px;
   }
   .gallery-image:last-of-type{
     padding-right: 200px;
