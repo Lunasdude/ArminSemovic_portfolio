@@ -43,7 +43,7 @@
   flex-wrap: nowrap;
   height: 560px;
   overflow-x: hidden;
-  margin: 200px 0 140px;
+  margin: 150px 0 140px;
   .gallery-caption{
     bottom: 170px;
     display: inline;
@@ -74,4 +74,9 @@
 }
 .down{
   margin-top: 60px;
+}
+
+.thumb-caption{
+  font-size: 2.5rem;
+  text-align: left;
 }

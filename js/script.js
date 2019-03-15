@@ -1,6 +1,7 @@
 $(document).ready(function(){
   
-  $("#hamburger").click(function() {
+  $("#hamburger").on("click", function() {
+    console.log("mm.. hamborger");
     $("#navbar-mobile-expansion").toggle();
   });
 
@@ -9,6 +10,7 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
     var scrollFromTop = parseInt($(window).scrollTop());
+    console.log(scrollFromTop);
     if (scrollFromTop < 300) { 
       target = "gallery1"; 
     }else{ 
@@ -16,15 +18,15 @@ $(document).ready(function(){
     }
   });
 
-  $('#right-button').click(function() {
+  $('#right-button').on("click", function() {
     event.preventDefault();
-    $(target).animate({
+    $("#" + target).animate({
       scrollLeft: "+=350px"
     }, "slow");
   });
-  $('#left-button').click(function() {
+  $('#left-button').on("click", function() {
     event.preventDefault();
-    $(target).animate({
+    $("#" + target).animate({
       scrollLeft: "-=350px"
     }, "slow");
   });  
