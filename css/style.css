@@ -221,6 +221,7 @@ i.fab.fa-instagram {
   width: 100%;
 }
 #navbar-mobile-expansion ul {
+  margin: 0;
   padding: 0;
 }
 #navbar-mobile-expansion ul li {

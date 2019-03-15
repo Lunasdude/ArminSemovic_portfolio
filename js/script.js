@@ -8,7 +8,7 @@ $(document).ready(function(){
   
   var target = "gallery1";
 
-  $(window).scroll(function(){
+  $(window).scroll(function() {
     var scrollFromTop = parseInt($(window).scrollTop());
     console.log(scrollFromTop);
     if (scrollFromTop < 300) { 
